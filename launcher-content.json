@@ -20,6 +20,61 @@
     "progress": 75,
     "statusText": "READY_TO_LAUNCH"
   },
+  "ui": {
+    "header": {
+      "home": "Inicio",
+      "account": "Mi Cuenta",
+      "patches": "Cronicas"
+    },
+    "maintenance": {
+      "title": "Mantenimiento",
+      "fallbackReason": "Actualizando protocolos de red...",
+      "etaLabel": "Retorno Estimado:",
+      "fallbackTime": "Proximamente"
+    },
+    "update": {
+      "badge": "Update Launcher",
+      "openButton": "Ver update",
+      "requiredLabel": "Requerido",
+      "fallbackNotesPrefix": "Se detecto la version"
+    },
+    "timeline": {
+      "title": "Secuencia de Capitulos",
+      "protocol": "Protocolo remoto"
+    },
+    "home": {
+      "launchButton": "ENTRAR A LA ALDEA",
+      "newsTitle": "Terminal de Noticias",
+      "newsFallback": "Recibiendo transmisiones de red..."
+    },
+    "account": {
+      "title": "Identidad",
+      "status": "Conectado",
+      "rankLabel": "Clasificacion",
+      "rankValue": "Ciudadano",
+      "reputationLabel": "Reputacion",
+      "reputationValue": "LVL 42"
+    },
+    "settings": {
+      "title": "Protocolos",
+      "subtitle": "Configuracion de Sistema",
+      "memoryLabel": "Asignacion de Memoria",
+      "resolutionLabel": "Resolucion de Interfaz",
+      "screenModeLabel": "Modo de Pantalla",
+      "windowLabel": "Ventana",
+      "fullscreenLabel": "Completa",
+      "saveLabel": "GUARDAR CONFIGURACION",
+      "savedLabel": "PROTOCOLOS GUARDADOS"
+    },
+    "patches": {
+      "title": "Cronicas",
+      "lockedTitle": "Capitulo Bloqueado",
+      "lockedDescription": "La historia aun es un misterio..."
+    },
+    "footer": {
+      "systemLabel": "SISTEMA OPERATIVO ALDEA"
+    }
+  },
   "background": {
     "url": "https://images.unsplash.com/photo-1541339943615-32e652496a75?q=80&w=2070&auto=format&fit=crop"
   },

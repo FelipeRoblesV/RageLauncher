@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "downloadUrl": "https://github.com/FelipeRoblesV/RageLauncher/releases/latest",
+  "branding": {
+    "name": "La Villita",
+    "systemVersion": "SISTEMA v1.0",
+    "statusLabel": "Red Sincronizada",
+    "statusDetail": "v1.0 Stable"
+  },
+  "hero": {
+    "eyebrow": "TRANSMISION_ACTIVA",
+    "titleTop": "Tierras",
+    "titleBottom": "Abisales",
+    "quote": "Nuevos horizontes emergen de la oscuridad. La Aldea se prepara para lo desconocido."
+  },
+  "stage": {
+    "name": "Tierras Abisales",
+    "label": "CAP 03",
+    "syncLabel": "Sincronizacion Global",
+    "progress": 75,
+    "statusText": "READY_TO_LAUNCH"
+  },
+  "background": {
+    "url": "https://images.unsplash.com/photo-1541339943615-32e652496a75?q=80&w=2070&auto=format&fit=crop"
+  },
+  "news": [
+    {
+      "id": "news-01",
+      "title": "Temporada activa",
+      "content": "Actualiza este archivo en GitHub para cambiar el texto que aparece en el launcher."
+    },
+    {
+      "id": "news-02",
+      "title": "Config remota",
+      "content": "Tambien puedes mover la imagen, el progreso y los datos del modpack desde aqui."
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "El Despertar",
+      "desc": "Los primeros pasos en la Aldea. La fundacion de los cimientos.",
+      "status": "completed",
+      "date": "DIC 2024",
+      "label": "CAP 01"
+    },
+    {
+      "id": 2,
+      "title": "Ecos del Vacio",
+      "desc": "El descubrimiento de las grietas dimensionales y el inicio del conflicto.",
+      "status": "completed",
+      "date": "ENE 2025",
+      "label": "CAP 02"
+    },
+    {
+      "id": 3,
+      "title": "Tierras Abisales",
+      "desc": "La fase actual. Secretos oscuros emergen de las profundidades.",
+      "status": "current",
+      "date": "MAR 2025",
+      "label": "CAP 03"
+    },
+    {
+      "id": 4,
+      "title": "Datos Encriptados",
+      "desc": "Este capitulo aun no ha sido desbloqueado por la historia.",
+      "status": "locked",
+      "date": "PROX",
+      "label": "CAP 04"
+    }
+  ],
+  "maintenance": {
+    "active": false,
+    "reason": "",
+    "time": ""
+  },
+  "modpack": {
+    "manifestUrl": "http://localhost:8080",
+    "serverId": "eml-rage",
+    "minecraftVersion": "1.20.1",
+    "minMemory": 512
+  }
+}
